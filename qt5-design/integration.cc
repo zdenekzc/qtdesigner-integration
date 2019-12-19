@@ -33,4 +33,4 @@ void LocalDesignerIntegration::slotNavigateToSlot (const QString & objectName, c
     }
 }
 
-#include "integration.moc"
+#include "moc_integration.cpp"

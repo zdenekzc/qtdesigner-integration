@@ -121,7 +121,7 @@ void FormWindow::setup ()
 
    /* open file */
 
-   QFile file ("example.ui");
+   QFile file ("../example.ui");
    file.open (QFile::ReadOnly);
    form->setContents (&file);
 
@@ -165,6 +165,6 @@ extern "C" int main (int argc, char * * argv)
 
 /* ---------------------------------------------------------------------- */
 
-#include "form.moc"
+#include "moc_form.cpp"
 
 /* ---------------------------------------------------------------------- */
