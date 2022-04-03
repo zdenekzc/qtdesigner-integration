@@ -4,8 +4,8 @@ rm designer.sbf
 rm designer.exp
 rm sipAPIdesigner.h
 rm sipdesignercmodule.cpp
+rm sipdesignercmodule.o
 rm sipdesignerDesigner.cpp
-rm sipdesignerLocalDesignerIntegration.cpp
-rm sipdesignerQDesignerIntegration.cpp
+rm sipdesignerDesigner.o
 rm sipdesignerQDesignerIntegrationInterface.cpp
 rm designer.so
